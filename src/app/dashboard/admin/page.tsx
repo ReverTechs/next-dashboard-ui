@@ -16,11 +16,11 @@ const AdminPage = () => {
           <UserCard type="admin" />
           <UserCard type="teacher" />
           <UserCard type="student" />
-          <UserCard type="parent" />
+          <UserCard type="parents" />
         </div>
         {/* MIDDLE CHARTS */}
         <div className="flex gap-4 flex-col lg:flex-row">
-          {/* count chart */}
+          {/* count charts*/}
           <div className="w-full lg:w-1/3 h-[450px]">
             <CountChart />
           </div>
@@ -34,7 +34,7 @@ const AdminPage = () => {
           <FinanceChart />
 
           {/* In future I will add more charts here depending on the school's
-          requrenments from the same -recharts- 1. Total number of alumins(boys/bys) 2. Passing rate in a year (Jan-Dec)*/}
+          requrenments from the same -recharts- || 1. Total number of alumins(boys/bys) 2. Passing rate in a year (Jan-Dec)*/}
         </div>
       </div>
       {/* RIGHT */}
